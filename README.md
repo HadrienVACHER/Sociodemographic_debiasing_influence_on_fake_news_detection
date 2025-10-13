@@ -77,19 +77,21 @@ The workflow is: (1) fine-tune an encoder (e.g., BERT) on a fake-news detection 
 
 ## Suggested Repo Structure
 
+## Suggested Repo Structure
+
+.
 ├── README.md
 ├── data/
-│ ├── raw/ # raw LIAR dataset
-│ └── processed/ # cleaned / tokenized data
-├── notebooks/ # EDA and experiments
+│   ├── raw/                # raw LIAR dataset
+│   └── processed/          # cleaned / tokenized data
+├── notebooks/              # EDA and experiments
 ├── src/
-│ ├── data.py # data loading & preprocessing
-│ ├── train.py # training & evaluation scripts
-│ ├── debiasing/ # implementations of debiasing methods
-│ └── utils.py
-├── experiments/ # logs, checkpoints, results
+│   ├── data.py             # data loading & preprocessing
+│   ├── train.py            # training & evaluation scripts
+│   ├── debiasing/          # implementations of debiasing methods
+│   └── utils.py
+├── experiments/            # logs, checkpoints, results
 └── requirements.txt
-
 
 ---
 
@@ -104,7 +106,8 @@ The workflow is: (1) fine-tune an encoder (e.g., BERT) on a fake-news detection 
 ---
 
 ## License
-Specify a license for the repository (e.g., MIT, Apache-2.0) — add a `LICENSE` file.
+
+MIT
 
 ---
 
