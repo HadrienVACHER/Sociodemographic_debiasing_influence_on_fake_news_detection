@@ -79,7 +79,7 @@ The workflow is: (1) fine-tune an encoder (e.g., BERT) on a fake-news detection 
 
 ## Suggested Repo Structure
 
-.
+```
 ├── README.md
 ├── data/
 │   ├── raw/                # raw LIAR dataset
@@ -92,7 +92,7 @@ The workflow is: (1) fine-tune an encoder (e.g., BERT) on a fake-news detection 
 │   └── utils.py
 ├── experiments/            # logs, checkpoints, results
 └── requirements.txt
-
+```
 ---
 
 ## How to get started
@@ -107,7 +107,7 @@ The workflow is: (1) fine-tune an encoder (e.g., BERT) on a fake-news detection 
 
 ## License
 
-MIT
+This project is licensed under the MIT License. See [LICENSE](Stat_App/LICENSE) for details.
 
 ---
 
