@@ -29,6 +29,12 @@ The workflow is: (1) fine-tune an encoder (e.g., BERT) on a fake-news detection 
 
 ---
 
+## Description
+
+This project aims to explore debiasing techniques of encoder models and to study their influence on fake news detection. Firstly, students are expected to understand how an encoder model, such as BERT, works. They will first fine-tune a classifier on a fake news detection task and observe its performance. Secondly, the students will study some well-known encoder debiasing techniques regarding discriminatory attributes (e.g. race, gender, socioeconomic status, . . . ) and implement them. The debiased models will be evaluated on the fake news detection task, and the students will interpret the results depending on the debiasing technique.
+
+---
+
 ## Objectives
 - Understand encoder-based models (BERT) and fine-tune them for fake-news detection.  
 - Implement encoder debiasing techniques addressing protected / sociodemographic attributes.  
