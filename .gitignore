@@ -210,3 +210,7 @@ __marimo__/
 Code/liar-bert-finetuned/
 Code/liar-bert-finetuned-final/
 Code/liar-bert-lora-finetuned/
+Code/liar-bert-finetuned-wandb/
+
+Code/test-trainer
+Code/wandb
