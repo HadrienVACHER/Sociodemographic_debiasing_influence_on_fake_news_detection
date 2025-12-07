@@ -31,7 +31,7 @@ The workflow is: (1) fine-tune an encoder (e.g., BERT) on a fake-news detection 
 
 ## Description
 
-This project aims to explore debiasing techniques of encoder models and to study their influence on fake news detection. Firstly, students are expected to understand how an encoder model, such as BERT, works. They will first fine-tune a classifier on a fake news detection task and observe its performance. Secondly, the students will study some well-known encoder debiasing techniques regarding discriminatory attributes (e.g. race, gender, socioeconomic status, . . . ) and implement them. The debiased models will be evaluated on the fake news detection task, and the students will interpret the results depending on the debiasing technique.
+This project aims to explore debiasing techniques for encoder models and study their influence on fake news detection. The initial phase involves analyzing the mechanics of encoder models, such as BERT, and fine-tuning a classifier to establish a baseline performance on a fake news detection task. Subsequently, well-known encoder debiasing techniques regarding discriminatory attributes (e.g., race, gender, socioeconomic status) will be implemented and studied. Finally, the debiased models will be evaluated against the baseline, with the results interpreted based on the specific mitigation techniques applied.
 
 ---
 
@@ -43,7 +43,7 @@ This project aims to explore debiasing techniques of encoder models and to study
 
 ---
 
-## Methodology (Suggested)
+## Methodology
 1. **Data preparation**
    - Download & preprocess the LIAR dataset.
    - Define labels and any auxiliary protected-attribute annotations required for debiasing experiments.
@@ -70,7 +70,7 @@ This project aims to explore debiasing techniques of encoder models and to study
 - PyTorch  
 - scikit-learn  
 - pandas  
-- matplotlib (or other plotting libs)  
+- matplotlib 
 
 ---
 
@@ -81,34 +81,14 @@ This project aims to explore debiasing techniques of encoder models and to study
 
 ---
 
-## Suggested Repo Structure
-
-## Suggested Repo Structure
+## Repo Structure
 
 ```
 ├── README.md
-├── data/
-│   ├── raw/                # raw LIAR dataset
-│   └── processed/          # cleaned / tokenized data
-├── notebooks/              # EDA and experiments
-├── src/
-│   ├── data.py             # data loading & preprocessing
-│   ├── train.py            # training & evaluation scripts
-│   ├── debiasing/          # implementations of debiasing methods
-│   └── utils.py
-├── experiments/            # logs, checkpoints, results
-└── requirements.txt
+├── Bibliography
+├── Code
+├── Data
 ```
----
-
-## How to get started
-1. Clone the repository.  
-2. Install dependencies (e.g., `pip install -r requirements.txt`).  
-3. Download the LIAR dataset and place it in `data/raw/`.  
-4. Run preprocessing script: `python src/data.py`.  
-5. Train baseline: `python src/train.py --config configs/baseline.yaml`.  
-6. Run debiasing experiments: `python src/train.py --config configs/debias_inlp.yaml` (or other configs).
-
 ---
 
 ## License
