@@ -20,12 +20,10 @@ The workflow is: (1) fine-tune an encoder (e.g., BERT) on a fake-news detection 
 ## Supervisors / Contacts
 
 - **Cecilia Graiff**  
-  - Email: cecilia.graiff@inria.fr  
-  - Phone: +39 348 158 5089
+  - Email: cecilia.graiff@inria.fr
 
 - **Gabrielle Le Bellier**  
-  - Email: gabrielle.le-bellier@inria.fr  
-  - Phone: +33 7 83 30 98 42
+  - Email: gabrielle.le-bellier@inria.fr
 
 ---
 
