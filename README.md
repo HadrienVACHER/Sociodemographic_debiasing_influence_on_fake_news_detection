@@ -42,24 +42,8 @@ This project aims to explore debiasing techniques for encoder models and study t
 ---
 
 ## Methodology
-1. **Data preparation**
-   - Download & preprocess the LIAR dataset.
-   - Define labels and any auxiliary protected-attribute annotations required for debiasing experiments.
 
-2. **Baseline**
-   - Fine-tune `bert-base-uncased` for fake-news classification.
-   - Evaluate with accuracy, precision, recall, F1, and confusion matrix.
-
-3. **Debiasing techniques**
-   - Implement and test several methods such as:
-     - Iterative Nullspace Projection (INLP)
-     - Adversarial debiasing (representation-level adversary)
-     - Data-level balancing / augmentation
-   - Apply debiasing to encoder representations (fine-tuned or frozen encoder as experimental variants).
-
-4. **Evaluation & analysis**
-   - Evaluate classification metrics and fairness metrics (e.g., demographic parity, equalized odds, subgroup performance).
-   - Perform qualitative analysis on errors and model explanations when relevant.
+x
 
 ---
 
