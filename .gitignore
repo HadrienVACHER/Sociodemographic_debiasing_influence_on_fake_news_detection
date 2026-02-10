@@ -215,3 +215,5 @@ Code/liar-bert-finetuned-wandb/
 Code/test-trainer
 Code/wandb
 .vscode/settings.json
+
+*.csv
