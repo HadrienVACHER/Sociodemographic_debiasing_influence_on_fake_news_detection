@@ -216,4 +216,5 @@ Code/test-trainer
 Code/wandb
 .vscode/settings.json
 
-*.csv
+Code/INLP + Finetuning/.DS_Store
+Code/INLP + Finetuning/Jigsaw data processing/all_data.csv
