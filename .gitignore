@@ -218,3 +218,5 @@ Code/wandb
 
 Code/INLP + Finetuning/.DS_Store
 Code/INLP + Finetuning/Jigsaw data processing/all_data.csv
+.DS_Store
+Code/.DS_Store
