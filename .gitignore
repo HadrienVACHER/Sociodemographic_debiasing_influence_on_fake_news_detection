@@ -219,11 +219,9 @@ Code/wandb
 Code/INLP + Finetuning/.DS_Store
 Code/INLP + Finetuning/Jigsaw data processing/all_data.csv
 .DS_Store
+Code/.DS_Store
 
 *all_data.csv
-
-Code/.DS_Store
-Code/INLP + Finetuning/wandb/run-20260223_114500-fog26iv0/files/wandb-metadata.json
 Code/INLP + Finetuning/wandb/latest-run
 Code/INLP + Finetuning/wandb/run-20260223_113908-blu6menk/run-blu6menk.wandb
 Code/INLP + Finetuning/wandb/run-20260223_113908-blu6menk/files/config.yaml
@@ -232,3 +230,4 @@ Code/INLP + Finetuning/wandb/run-20260223_113908-blu6menk/files/wandb-metadata.j
 Code/INLP + Finetuning/wandb/run-20260223_113908-blu6menk/files/wandb-summary.json
 Code/INLP + Finetuning/wandb/run-20260223_114500-fog26iv0/run-fog26iv0.wandb
 Code/INLP + Finetuning/wandb/run-20260223_114500-fog26iv0/files/requirements.txt
+Code/INLP + Finetuning/wandb/run-20260223_114500-fog26iv0/files/wandb-metadata.json
