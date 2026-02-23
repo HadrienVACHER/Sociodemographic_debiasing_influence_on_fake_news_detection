@@ -219,6 +219,9 @@ Code/wandb
 Code/INLP + Finetuning/.DS_Store
 Code/INLP + Finetuning/Jigsaw data processing/all_data.csv
 .DS_Store
+
+*all_data.csv
+
 Code/.DS_Store
 Code/INLP + Finetuning/wandb/run-20260223_114500-fog26iv0/files/wandb-metadata.json
 Code/INLP + Finetuning/wandb/latest-run
