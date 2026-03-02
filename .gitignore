@@ -223,6 +223,8 @@ Code/.DS_Store
 
 *.npy
 
+*.png
+
 *all_data.csv
 Code/INLP + Finetuning/wandb/latest-run
 Code/INLP + Finetuning/wandb/run-20260223_113908-blu6menk/run-blu6menk.wandb
