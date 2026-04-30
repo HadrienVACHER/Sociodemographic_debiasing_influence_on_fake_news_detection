@@ -1,0 +1,21 @@
+[project]
+name = "obliviator"
+version = "0.1.0"
+description = "A package for running Concept Erasure methods"
+readme = "README.md"
+authors = [
+    { name = "Ramin Akbari", email = "akbarigh@msu.edu" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "huggingface-hub>=1.4.1",
+    "numpy>=2.4.2",
+    "scipy>=1.17.0",
+    "torch>=2.9.0",
+    "tqdm>=4.67.3",
+    "tyro>=1.0.6",
+]
+
+[build-system]
+requires = ["uv_build>=0.9.25,<0.10.0"]
+build-backend = "uv_build"
